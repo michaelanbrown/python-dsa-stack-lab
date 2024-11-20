@@ -14,6 +14,8 @@ class Stack:
     def push(self, item):
         if (not self.full()):
             self.items.append(item)
+        else:
+            return None
 
     def push(self, item):
         pass
