@@ -26,7 +26,7 @@ class Stack:
         return self.items[len(self.items)]
     
     def size(self):
-        pass
+        return len(self.items)
 
     def full(self):
         pass
