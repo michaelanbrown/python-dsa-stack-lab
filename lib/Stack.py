@@ -9,7 +9,7 @@ class Stack:
                 self.items.append(item)
 
     def isEmpty(self):
-        pass
+        return self.items == []
 
     def push(self, item):
         pass
