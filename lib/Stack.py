@@ -17,9 +17,6 @@ class Stack:
         else:
             return None
 
-    def push(self, item):
-        pass
-
     def pop(self):
         pass
 
