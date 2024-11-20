@@ -31,6 +31,7 @@ class Stack:
     def full(self):
         if (len(self.items) >= self.limit):
             return True
+        return False
 
     def search(self, target):
         pass
