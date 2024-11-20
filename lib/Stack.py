@@ -36,4 +36,5 @@ class Stack:
     def search(self, target):
         for i in reversed(range(len(self.items))):
             if self.items[i] == target:
-                return len(self.items) - 1 - i 
+                return len(self.items) - 1 - i
+        return -1
