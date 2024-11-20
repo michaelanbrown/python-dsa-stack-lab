@@ -12,6 +12,10 @@ class Stack:
         return self.items == []
 
     def push(self, item):
+        if (not self.full()):
+            self.items.append(item)
+
+    def push(self, item):
         pass
 
     def pop(self):
