@@ -4,6 +4,10 @@ class Stack:
         self.items = []
         self.limit = limit
 
+        for item in items:
+            if(not self.full()):
+                self.items.append(item)
+
     def isEmpty(self):
         pass
 
