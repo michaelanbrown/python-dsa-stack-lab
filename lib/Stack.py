@@ -34,4 +34,6 @@ class Stack:
         return False
 
     def search(self, target):
-        pass
+        for i in reversed(range(len(self.items))):
+            if self.items[i] == target:
+                return len(self.items) - 1 - i 
