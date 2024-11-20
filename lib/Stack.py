@@ -18,7 +18,8 @@ class Stack:
             return None
 
     def pop(self):
-        pass
+        if self.isEmpty():
+            return None
 
     def peek(self):
         pass
