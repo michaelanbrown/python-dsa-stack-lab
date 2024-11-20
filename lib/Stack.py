@@ -23,7 +23,7 @@ class Stack:
         return self.items.pop()
 
     def peek(self):
-        pass
+        return self.items[len(self.items)]
     
     def size(self):
         pass
