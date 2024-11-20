@@ -20,6 +20,7 @@ class Stack:
     def pop(self):
         if self.isEmpty():
             return None
+        return self.items.pop()
 
     def peek(self):
         pass
